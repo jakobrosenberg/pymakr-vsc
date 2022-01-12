@@ -4,7 +4,7 @@
   "description": "Adds a REPL console to the terminal that connects to your Pycom board. Run single files or synchronize your project files to your board.",
   "version": "1.1.15-beta.0",
   "publisher": "pycom",
-  "repository": "https://github.com/pycom/pymakr-vsc",
+  "repository": "https://github.com/jakobrosenberg/pymakr-vsc",
   "icon": "images/logo.png",
   "license": "SEE LICENSE IN <LICENSE.md>",
   "private": true,
@@ -63,7 +63,6 @@
       "@semantic-release/github"
     ],
     "verifyConditions": [
-      "semantic-release-vsce",
       "@semantic-release/github"
     ],
     "prepare": {
@@ -71,7 +70,6 @@
       "packageVsix": true
     },
     "publish": [
-      "semantic-release-vsce",
       {
         "path": "@semantic-release/github",
         "assets": "*.vsix"
