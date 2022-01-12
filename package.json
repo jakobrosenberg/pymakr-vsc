@@ -66,14 +66,8 @@
       "@semantic-release/github"
     ],
     "prepare": {
-      "path": "semantic-release-vsce",
-      "packageVsix": true
     },
     "publish": [
-      {
-        "path": "@semantic-release/github",
-        "assets": "*.vsix"
-      }
     ]
   },
   "contributes": {
