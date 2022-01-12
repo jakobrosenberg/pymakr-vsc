@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jakobrosenberg/pymakr-vsc/compare/v1.1.17...v1.2.0) (2022-01-12)
+
+
+### Features
+
+* new feature (test) ([dcb8963](https://github.com/jakobrosenberg/pymakr-vsc/commit/dcb8963bf8a10390200ecf5ea7b21fc4edb49074))
+
 # Changelog
 
 ## [1.1.17](https://github.com/pycom/pymakr-vsc/compare/v1.1.16...v1.1.17) (2022-01-04)

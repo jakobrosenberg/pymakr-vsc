@@ -2,7 +2,7 @@
   "name": "pymakr",
   "displayName": "Pymakr",
   "description": "Adds a REPL console to the terminal that connects to your Pycom board. Run single files or synchronize your project files to your board.",
-  "version": "1.1.15-beta.0",
+  "version": "1.2.0",
   "publisher": "pycom",
   "repository": "https://github.com/jakobrosenberg/pymakr-vsc",
   "icon": "images/logo.png",
@@ -57,7 +57,7 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",      
+      "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/github"
@@ -65,10 +65,8 @@
     "verifyConditions": [
       "@semantic-release/github"
     ],
-    "prepare": {
-    },
-    "publish": [
-    ]
+    "prepare": {},
+    "publish": []
   },
   "contributes": {
     "commands": [
